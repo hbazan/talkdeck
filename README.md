@@ -19,3 +19,6 @@ Well, I missed [The Social Radio](https://twitter.com/thesocialradio)
 
 ## Who?
 https://github.com/hbazan
+
+## How?
+To test the extension, follow [this](https://developer.chrome.com/extensions/getstarted#unpacked) steps to deploy it on Developer Mode (no official release on web store extension yet).
