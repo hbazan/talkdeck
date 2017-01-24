@@ -21,7 +21,7 @@ So, anytime you want to listen, you will get up to 100 of the latest tweets.
 Well, I missed [The Social Radio](https://twitter.com/thesocialradio)
 
 ## Who?
-https://github.com/hbazan
+https://twitter.com/_patanpatan
 
 ## How?
 To test the extension, follow [this](https://developer.chrome.com/extensions/getstarted#unpacked) steps to deploy it on Developer Mode (no official release on web store extension yet).
