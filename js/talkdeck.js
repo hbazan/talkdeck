@@ -23,7 +23,7 @@ function lorear() {
 			var tuit = tuits.shift().split('$|$');
 			u.text = tuit[0];
 			u.voice = window.speechSynthesis.getVoices().find(function (v) {
-					return v.lang == tuit[1] + '-US';
+					return v.lang.startsWith(tuit[1]) && !v.lang.endsWith('ES');
 				});
 			prev.push(tuit[2]);
 			while (prev.length > 2) {
