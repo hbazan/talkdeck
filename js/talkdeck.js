@@ -15,6 +15,7 @@ u.rate = 1.15;
 var play = false;
 var talking = false;
 var prev = [];
+var playDiv;
 
 function lorear() {
 	window.speechSynthesis.cancel();
@@ -65,7 +66,7 @@ function gogogo() {
 		setTimeout(gogogo, 5000);
 	}
 
-	var playDiv = document.createElement('div');
+	playDiv = document.createElement('div');
 	var playA = document.createElement('a');
 	playA.onclick = function () {
 		window.speechSynthesis.cancel();
@@ -105,7 +106,7 @@ function gogogo() {
 		if (n.querySelector('p.tweet-text') && n.querySelector('span.account-inline')){
 			var body = n.querySelector('p.tweet-text').innerText
 				.replace(/#/g, "hashtag ")
-				.replace("RT ", "retuit ")
+				.replace("RT ", "retweet ")
 				.replace("http://", "link a ")
 				.replace("https://", "link a ");
 			return n.querySelector('span.account-inline').innerText
@@ -134,6 +135,9 @@ function gogogo() {
 								}
 							}
 						});
+						if ($('div.js-column-nav-list')[0].childElementCount<=2){
+							$('div.js-column-nav-list')[0].appendChild(playDiv);
+						}
 					}
 				}
 			});
