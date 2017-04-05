@@ -24,4 +24,4 @@ Well, I missed [The Social Radio](https://twitter.com/thesocialradio)
 https://twitter.com/_patanpatan
 
 ## How?
-Available [here]https://chrome.google.com/webstore/detail/talkdeck/opchaehgojjfapbbofjlbjidhnpgagpk/
+Available [here](https://chrome.google.com/webstore/detail/talkdeck/opchaehgojjfapbbofjlbjidhnpgagpk/)
